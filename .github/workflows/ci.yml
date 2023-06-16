@@ -61,7 +61,7 @@ jobs:
       - name: Setup Boost
         shell: cmd
         run: |
-          cmd /c bootstrap clang
+          cmd /c bootstrap  clang
           b2 -d0 headers
 
       - name: Build Boost
